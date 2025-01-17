@@ -94,7 +94,7 @@ const Hero = () => {
                          <h1 className='Gender'>{item.gender}</h1>
                          <p className='bio'>{item.bio}</p>
                         <button onClick={() => handledelete(item.id)} className='button2'>Delete</button>
-                        <button onClick={() => handleEdit(item)}>Edit</button>
+                        <button onClick={() => handleEdit(item)} className='button__edit'>Edit</button>
                     </div>
                 ))
             }

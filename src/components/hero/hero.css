@@ -56,3 +56,49 @@
 .button2:hover{
     background-color: #da4c4c;
 }
+.Text{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-size: 20px;
+    font-family: bold;
+    font-weight: 600;
+}
+.Number{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.Profession{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 21px;
+    font-family: bold;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.Gender{
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.bio{
+    text-align: center;
+    margin-top: 21px;
+    color: #af1414;
+    font-family: bold;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.button__edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
